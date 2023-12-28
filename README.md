@@ -1,4 +1,4 @@
-# Rule-based Representation Learner
+# Rule-based Representation Learner on Wine Dataset
 ## Updates
 *The following updates have been summarized as a paper ([Learning Interpretable Rules for Scalable Data Representation and Classification](https://arxiv.org/abs/2310.14336)) and accepted by TPAMI.* :tada::tada::tada:
 
