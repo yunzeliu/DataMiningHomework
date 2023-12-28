@@ -10,7 +10,7 @@ parser.add_argument('-i', '--device_ids', type=str, default=0, help='Set the dev
 parser.add_argument('-nr', '--nr', default=0, type=int, help='ranking within the nodes')
 parser.add_argument('-e', '--epoch', type=int, default=401, help='Set the total epoch.')
 parser.add_argument('-bs', '--batch_size', type=int, default=32, help='Set the batch size.')
-parser.add_argument('-lr', '--learning_rate', type=float, default=0.002, help='Set the initial learning rate.')
+parser.add_argument('-lr', '--learning_rate', type=float, default=0.0001, help='Set the initial learning rate.')
 parser.add_argument('-lrdr', '--lr_decay_rate', type=float, default=0.75, help='Set the learning rate decay rate.')
 parser.add_argument('-lrde', '--lr_decay_epoch', type=int, default=200, help='Set the learning rate decay epoch.')
 parser.add_argument('-wd', '--weight_decay', type=float, default=0.001, help='Set the weight decay (L2 penalty).')
